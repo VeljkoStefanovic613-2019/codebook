@@ -244,6 +244,18 @@
       "password": "$2a$10$g1RCklYdJP0UgZizYQU99.5xLvDNmxq2jpHP6w6FPozEd8g1Xrlw2",
       "name": "veljko",
       "id": 1
+    },
+    {
+      "email": "veljko@probaa.com",
+      "password": "$2a$10$ockOCsvthEE3ZaSAmGTc2OHSELtJqWnAjoCkTVowCgmqow7yHvEEa",
+      "name": "veljko",
+      "id": 2
+    },
+    {
+      "email": "veljko@proba1.com",
+      "password": "$2a$10$6A0NAH6rdk/hAT0b8kG52eGH0K3j0pPUv4RJqh7MS6lXSNztdfDDe",
+      "name": "veljko",
+      "id": 3
     }
   ]
 }
