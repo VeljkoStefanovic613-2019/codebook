@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import Logo from "../../assets/logo.png";
 import { useEffect, useState } from "react";
 import { Search } from "../Sections/Search";
@@ -8,6 +8,7 @@ export const Header = () => {
     const [darkMode, setDarkMode] = useState(JSON.parse(localStorage.getItem("darkMode")) || false);
     const [searchShow, setSearchShow] = useState(false);
     const [dropdown, setDropdown] = useState (false);
+    const location = useLocation();
 
     useEffect(() => {
         localStorage.setItem("darkMode", JSON.stringify(darkMode));
@@ -18,6 +19,10 @@ export const Header = () => {
         }
 
     },[darkMode]);
+    
+    useEffect(() => {
+        setDropdown(false);
+    }, [location]);
 
   return (
     <header>      
