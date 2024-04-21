@@ -18,7 +18,6 @@ export async function login(authDetail){
 
       return data;
 }
-
 export async function register(authDetail){
     const requestOptions = {
         method: "POST",
