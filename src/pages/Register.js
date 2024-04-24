@@ -26,7 +26,6 @@ export const Register = () => {
       })
     }
   }
-
   return (
     <main>
       <section>
